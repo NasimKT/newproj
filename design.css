@@ -478,7 +478,8 @@ textarea{
 }
 .btn10{
     display: flex;
-    padding: 10px 40px;
+    height: 55px;
+    width: 172px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -487,4 +488,13 @@ textarea{
     background: var(--dark-colour, #2E333A);
     /* NewM T Nav */
     box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
+}
+#err_email,
+#err_name,
+#err_pass{
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c62828;
+    display: none;
 }
