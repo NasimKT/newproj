@@ -489,6 +489,18 @@ textarea{
     /* NewM T Nav */
     box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
 }
+.btn10-0{
+    display: flex;
+    padding: 10px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    border: 1px solid #0ED2F6;
+    background: var(--dark-colour, #2E333A);
+    /* NewM T Nav */
+    box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
+}
 #err_email,
 #err_name,
 #err_pass{
@@ -497,4 +509,7 @@ textarea{
     font-family: Arial, Helvetica, sans-serif;
     color: #c62828;
     display: none;
+}
+button{
+    cursor: pointer;
 }
