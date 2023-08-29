@@ -10,6 +10,7 @@ body{
 }
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 .navbar{
     display: flex;
@@ -370,6 +371,15 @@ a{
     font-style: normal;
     font-weight: 600;
     line-height: 130%; /* 35.1px */
+}
+.font10-6{
+    color: var(--secondary-blue-light-1, #72E4F9);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 18.2px */
 }
 input{
     display: flex;
