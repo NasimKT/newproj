@@ -503,7 +503,15 @@ textarea{
 }
 #err_email,
 #err_name,
-#err_pass{
+#err_pass,
+#er_name,
+#er_email,
+#er_pas,
+#er_con-pas,
+#er_org,
+#er_summary,
+#pas-match
+{
     margin-top: 5px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
@@ -512,4 +520,7 @@ textarea{
 }
 button{
     cursor: pointer;
+}
+.padd{
+    padding-top: 40px;
 }

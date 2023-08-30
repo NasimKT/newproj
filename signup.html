@@ -116,9 +116,20 @@
                                 <td>Email</td>
                             </tr>
                             <tr>
-                                <td><input type="text" id="name"></td>
-                                <td><input type="email" id="name"></td>
+                                <td>
+                                    <input type="text" id="name">
+                                    <div id="er_name">Name should be filled out</div>
+                                </td>
+                                <td>
+                                    <input type="email" id="email">
+                                    <div id="er_email">Email should be filled out</div>
+                                </td>
                             </tr>
+                            <tr>
+                                <td>
+                                    <div class="padd"></div>
+                                </td>
+                            <tr>
                             <tr class="font10-2">
                                 <td>Organisation</td>
                                 <td>Role</td>
@@ -126,6 +137,7 @@
                             <tr>
                                 <td>
                                     <input type="text" id="org">
+                                    <div id="er_org">This field should be filled out</div>
                                 </td>
                                 <td>
                                     <select class="font10-3">
@@ -135,6 +147,11 @@
                                     </select>
                                 </td>
                             </tr>
+                            <tr>
+                                <td>
+                                    <div class="padd"></div>
+                                </td>
+                            <tr>
                             <tr class="font10-2">
                                 <td>Password:</td>
                                 <td>Confirm Password:</td>
@@ -156,6 +173,7 @@
                                         </svg>
                                     </i>                                
                                 </div>
+                                <div id="er_pas">Password should be filled out</div>
                                 </td>
                                 <td>
                                     <div class="inp-con">
@@ -173,22 +191,39 @@
                                             </svg>
                                         </i>                                
                                     </div>
+                                    <div id="er_con-pas">Confirm your password</div>
                                 </td>
                             </tr>
+                            <tr>
+                                <td align="center" colspan="2">
+                                    <div id="pas-match">Passwords should match!!</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="padd"></div>
+                                </td>
+                            <tr>
                             <tr class="font10-2">
                                 <td>Profile summary:</td>
                             </tr>
                             <tr>
                                 <td colspan="2">
                                     <textarea id="summary"></textarea>
+                                    <div id="er_summary">This field should be filled out</div>
                                 </td>
                             </tr>
                             <tr>
                                 <td><a class="font10-4" href="signin.html?">Already have an account ?</a></td>
                             </tr>
                             <tr>
+                                <td>
+                                    <div class="padd"></div>
+                                </td>
+                            <tr>
+                            <tr>
                                 <td align="center" colspan="2">
-                                    <button class="btn10-0">
+                                    <button class="btn10-0" onclick="validate()">
                                         <span class="font10-5">Create account</span>
                                     </button>
                                 </td>
