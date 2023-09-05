@@ -305,7 +305,9 @@ a{
   overflow: hidden;
   margin-left: -12px;
 }
-
+#signin{
+    display: none;
+}
 /*sign up*/
 .con10{
     display: flex;
@@ -726,6 +728,22 @@ li{
     font-weight: 500;
     line-height: 130%; /* 29.9px */
 }
+.font20-7{
+    color: var(--blue-Grey-light, #E7ECEF);
+    font-family: Arial, sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 29.9px */
+}
+.font20-8{
+    color: var(--Secondary-Blue-light-2, #B8F1FC);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
 .box20-1{
     width: 390px;
     display: inline-flex;
@@ -912,6 +930,12 @@ li{
     align-self: stretch;
     padding-bottom: 30px;
 }
+.grp-frm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
 .act-titles{
     display: flex;
     flex-direction: row;
@@ -923,6 +947,7 @@ li{
 .title-frm{
     width: 1302px;
     height: 30.354px;
+    padding-left: 50px;
 }
 .home-frm{
     display: flex;
@@ -939,4 +964,28 @@ li{
     flex-direction: column;
     align-items: flex-start;
     gap: 5px;
+}
+.con-frm-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.head-icon2{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trophie{
+    width: 20px;
+    height: 20px;
+    transform: rotate(-1deg);
+    fill: var(--Secondary-Blue, #0ED2F6);
+    stroke-width: 0.2px;
+    stroke: #2E333A;
 }

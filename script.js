@@ -1,3 +1,12 @@
+function signup(){
+    document.getElementById("signup").style.display = "block";
+    document.getElementById("signin").style.display = "none";
+}
+function signin(){
+    document.getElementById("signin").style.display = "block";
+    document.getElementById("signup").style.display = "none";
+}
+
 function togglePasswordVisibility() {
     var passwordInput = document.getElementById("pas");
     var showIcon = document.getElementById("show");
